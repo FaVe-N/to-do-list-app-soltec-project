@@ -44,6 +44,7 @@ function App() {
 
 
   return (
+    <>
     <div className="App">
       <h1>Your To-do List</h1>
       <div className="top">
@@ -71,6 +72,7 @@ function App() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
