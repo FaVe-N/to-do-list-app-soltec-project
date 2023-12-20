@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background: #d9ddff;
+}
+h1 {
+    color: #003049;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #4c5499;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
+.top form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(204, 39, 121);
+}
+.top button, .item-buttons .update-item  {
+    background-color: #003049;
+    border: none;
+    border: 1px solid #333;
+    padding: 8px 24px;
+    color: #fff;
+}
+.list-items {
+    margin: 20px auto;
+}
+.list-items .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-buttons button {
+    margin-right: 24px;
+}
+.item-buttons .delete-item {
+    background-color: #c1121f;
+    border: none;
+    border: 1px solid #333;
+    padding: 8px 24px;
+    color: #fff;
+}
+.description {
+    font-size: 20px;
+    color: #003049;
+}
